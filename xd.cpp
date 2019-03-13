@@ -1,4 +1,4 @@
-//Solution to the codeforces round #564
+//Solution to the codeforces round #546
 //https://codeforces.com/contest/1136/standings/friends/true
 //
 #pragma GCC optimize("Ofast")
