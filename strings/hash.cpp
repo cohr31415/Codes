@@ -12,7 +12,7 @@ const ll inv = 5e+8 + 4;
 
 using namespace std;
 
-ll arr1[N], arr2[N], pot[N];
+ll arr[N], arr2[N], pot[N];
 
 void pre(ll p){
     pot[0] = 1; 
