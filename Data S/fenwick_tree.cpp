@@ -4,7 +4,7 @@ int arr[N];
 int bitree[N];
 int n;
 
-int getsum(int pos){
+int getsum(int pos){ //suma de [0...pos]
     int sum = 0;
     pos++; //ya que el arreglo de bitree empieza en 1
     while(pos > 0){
@@ -15,7 +15,7 @@ int getsum(int pos){
 }
 
 //tienes que actualizar el arr antes de update
-void update(int pos, int val){
+void update(int pos, int val){ //actualiza 
     pos++; //ya que el arreglo de bitree empieza en 1
     while(pos <= n){
         bitree[pos] += val;
